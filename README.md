@@ -12,6 +12,7 @@ This project is the deployment of a Windows Server Domain Controller (Active Dir
 - 1 x Windows Server (AD Domain Controller)
 - 1 x Windows 8 Client PC (IT Department)
 - 1 x Windows 8 Client PC (Advertising Department)
+- 1 x Windows 8 Client PC (Human Resource Department)
 
 ---
 
@@ -35,14 +36,15 @@ Router (Gateway: 10.0.2.1)
 Switch
  ┌──────┬─────────────┬──────────────┐
  │      │             │              │
-Server  PC1 (Win 8)   PC2 (Win 8)
+Server  PC1 (Win 8)   PC2 (Win 8)   PC2 (Win 8)
 ```
 
 | Device        | IP Address      | Role                        |
 |---------------|----------------|-----------------------------|
 | Windows Server| 10.0.2.15  | AD Domain Controller (DC)   |
 | Windows 8 PC  | DHCP    | Client (IT)           |
-| Windows XP PC | DHCP    | Client (Advertising)              |
+| Windows 8 PC | DHCP    | Client (Advertising)              |
+| Windows 8 PC | DHCP    | Client (Human Resource)              |
 
 ---
 
@@ -79,7 +81,7 @@ CyberTech.local
 
 Created and linked using **Group Policy Management Console (gpmc.msc)**:
 
-- **GPO Name**: `DisableRemovableDrives`
+- **GPO Name**: `DisableShutdown`
 - **Linked to**: OU: IT Department
 - **Policy Configured**:
   - `Computer Configuration` > `Administrative Templates` > `Start Menu and Task Bar` > `Remove and prevent access to the Shut Down, Restart, Sleep, and Hibernate commands`
