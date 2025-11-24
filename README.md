@@ -1,7 +1,7 @@
 
 # Active Directory Simulation – CyberTech Solutions
 
-This project is the deployment of a Windows Server Domain Controller (Active Directory) for a company called **CyberTech Solutions**. It includes domain setup, client configuration, OU design, group policies, and access control in an enterprise environment.
+This project is the deployment of a Windows Server Domain Controller (Active Directory) for a company called **Seedorf Tech**. It includes domain setup, client configuration, OU design, group policies, and access control in an enterprise environment.
 
 ---
 
@@ -10,8 +10,8 @@ This project is the deployment of a Windows Server Domain Controller (Active Dir
 **CyberTech Solutions** is a small IT services firm with the following structure:
 
 - 1 x Windows Server (AD Domain Controller)
-- 1 x Windows 8 Client PC (Account Department)
-- 1 x Windows 7 Client PC (Legacy Software)
+- 1 x Windows 8 Client PC (IT Department)
+- 1 x Windows 8 Client PC (Advertising Department)
 
 ---
 
@@ -30,26 +30,26 @@ This project is the deployment of a Windows Server Domain Controller (Active Dir
 ```
 Internet
    ↓
-Router (Gateway: 10.0.5.1)
+Router (Gateway: 10.0.2.1)
    ↓
 Switch
  ┌──────┬─────────────┬──────────────┐
  │      │             │              │
-Server  PC1 (Win 8)   PC2 (Win XP)
+Server  PC1 (Win 8)   PC2 (Win 8)
 ```
 
 | Device        | IP Address      | Role                        |
 |---------------|----------------|-----------------------------|
-| Windows Server| 10.0.5.5  | AD Domain Controller (DC)   |
-| Windows 8 PC  | DHCP    | Client (Accounts)           |
-| Windows XP PC | DHCP    | Legacy Client               |
+| Windows Server| 10.0.2.15  | AD Domain Controller (DC)   |
+| Windows 8 PC  | DHCP    | Client (IT)           |
+| Windows XP PC | DHCP    | Client (Advertising)              |
 
 ---
 
 ## Domain Configuration
 
-- **Domain Name**: `cybertech.local`
-- **Server Name**: `CYBERTECH`
+- **Domain Name**: `seedorf.tech`
+- **Server Name**: `SEEDORF`
 - **Static IP**: `10.0.5.5`
 - **AD Roles Installed**: AD DS, DNS (DHCP)
 
@@ -62,11 +62,15 @@ Created using **Active Directory Users and Computers**:
 ```
 CyberTech.local
 ├── OU: IT Department
-│   └── Users: Alex.IT
-    └── Users: Charles.IT
+│   └── Users: Uthman.IT
+    
 
-├── OU: Sales
-│   └── Users:
+├── OU: ADVERTISING Department
+│   └── Users: Lateef.AD
+
+
+├── OU: HUMAN RESOURCE Department
+│   └── Users: Akeem.HR
 ```
 
 ---
@@ -78,10 +82,11 @@ Created and linked using **Group Policy Management Console (gpmc.msc)**:
 - **GPO Name**: `DisableRemovableDrives`
 - **Linked to**: OU: IT Department
 - **Policy Configured**:
-  - `Computer Configuration` > `Administrative Templates` > `System` > `Removable Storage Access`
-  - Set **"All Removable Storage classes: Deny all access"** to **Enabled**
+  - `Computer Configuration` > `Administrative Templates` > `Start Menu and Task Bar` > `Remove and prevent access to the Shut Down, Restart, Sleep, and Hibernate commands`
+  - `Security Filtering` > `Find all` > `Uthman.IT, Lateef.AD, Akeem.HR`
+  - Set **"Remove all access to shut down: Deny all access"** to **Enabled**
 
-Result: USB and external drives are disabled for all users in the **Accounts OU**.
+Result: Shut Down, Restart, Sleep, and Hibernate commands disabled for all users in the **Accounts OU**.
 
 ---
 
@@ -105,5 +110,5 @@ Result: USB and external drives are disabled for all users in the **Accounts OU*
 
 ## Author
 
-**Aliu B. Sanusi**  
+**Saheea A. Olasunkanmi**  
 Cybersecurity Analyst  
