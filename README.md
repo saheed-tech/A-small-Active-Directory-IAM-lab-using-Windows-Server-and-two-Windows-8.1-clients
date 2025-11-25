@@ -94,7 +94,7 @@ Result: Shut Down, Restart, Sleep, and Hibernate commands disabled for all users
 
 ## Screenshots
 
-- Internet Protocol V4 Configuration
+- {Internet Protocol V4 Configuration}(https://github.com/saheed-tech/A-small-Active-Directory-IAM-lab-using-Windows-Server-and-two-Windows-8.1-clients/blob/main/Screenshots/Creation_of_Group.PNG)
 - Seedorf Domain Setup
 - Seedorf Domain Activation Page
 - Creation of OU
