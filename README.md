@@ -94,18 +94,18 @@ Result: Shut Down, Restart, Sleep, and Hibernate commands disabled for all users
 
 ## Screenshots
 
-- [Internet Protocol V4 Configuration](https://github.com/saheed-tech/A-small-Active-Directory-IAM-lab-using-Windows-Server-and-two-Windows-8.1-clients/blob/main/Screenshots/Creation_of_Group.PNG)
-- Seedorf Domain Setup
-- Seedorf Domain Activation Page
-- Creation of OU
-- List of Organization Unit
-- Creation of Groups
-- Creation of Users
-- Creation of new GPO
-- GPO modification
-- Linking GPO to Domain
-- Deployment Configuration
-- Result of denied access to shutdown
+- [Internet Protocol V4 Configuration](https://github.com/saheed-tech/A-small-Active-Directory-IAM-lab-using-Windows-Server-and-two-Windows-8.1-clients/blob/main/Screenshots/Intenet_Protocol_V4_.PNG)
+- [Seedorf Domain Setup](https://github.com/saheed-tech/A-small-Active-Directory-IAM-lab-using-Windows-Server-and-two-Windows-8.1-clients/blob/main/Screenshots/Seedorf_Domain.PNG)
+- [Seedorf Domain Activation Page](https://github.com/saheed-tech/A-small-Active-Directory-IAM-lab-using-Windows-Server-and-two-Windows-8.1-clients/blob/main/Screenshots/Seedorf_Domain_Activation_Page.PNG)
+- [Creation of OU](https://github.com/saheed-tech/A-small-Active-Directory-IAM-lab-using-Windows-Server-and-two-Windows-8.1-clients/blob/main/Screenshots/Creation_of_OU.PNG)
+- [List of Organization Unit](https://github.com/saheed-tech/A-small-Active-Directory-IAM-lab-using-Windows-Server-and-two-Windows-8.1-clients/blob/main/Screenshots/Organization_Unit.PNG)
+- [Creation of Groups](https://github.com/saheed-tech/A-small-Active-Directory-IAM-lab-using-Windows-Server-and-two-Windows-8.1-clients/blob/main/Screenshots/Creation_of_Group.PNG)
+- [Creation of Users](https://github.com/saheed-tech/A-small-Active-Directory-IAM-lab-using-Windows-Server-and-two-Windows-8.1-clients/blob/main/Screenshots/Creation_of_users.PNG)
+- [Creation of new GPO](https://github.com/saheed-tech/A-small-Active-Directory-IAM-lab-using-Windows-Server-and-two-Windows-8.1-clients/blob/main/Screenshots/Creation_of_new_GPO.PNG)
+- [GPO modification](https://github.com/saheed-tech/A-small-Active-Directory-IAM-lab-using-Windows-Server-and-two-Windows-8.1-clients/blob/main/Screenshots/GPO_modification.PNG)
+- [Linking GPO to Domain](https://github.com/saheed-tech/A-small-Active-Directory-IAM-lab-using-Windows-Server-and-two-Windows-8.1-clients/blob/main/Screenshots/Linking_GPO_to-Domain.PNG)
+- [Deployment Configuration](https://github.com/saheed-tech/A-small-Active-Directory-IAM-lab-using-Windows-Server-and-two-Windows-8.1-clients/blob/main/Screenshots/Deployment_Configuration.PNG)
+- [Result of denied access to shutdown](https://github.com/saheed-tech/A-small-Active-Directory-IAM-lab-using-Windows-Server-and-two-Windows-8.1-clients/blob/main/Screenshots/Denial_Access_to_Shutdown.PNG)
 
 ---
 
