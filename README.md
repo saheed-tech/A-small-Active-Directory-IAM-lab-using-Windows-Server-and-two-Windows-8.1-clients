@@ -94,10 +94,18 @@ Result: Shut Down, Restart, Sleep, and Hibernate commands disabled for all users
 
 ## Screenshots
 
-- AD Domain Structure
-- GPO Editor Screenshot
-- PC joined to domain
-- Result of denied USB access
+- Internet Protocol V4 Configuration
+- Seedorf Domain Setup
+- Seedorf Domain Activation Page
+- Creation of OU
+- List of Organization Unit
+- Creation of Groups
+- Creation of Users
+- Creation of new GPO
+- GPO modification
+- Linking GPO to Domain
+- Deployment Configuration
+- Result of denied access to shutdown
 
 ---
 
