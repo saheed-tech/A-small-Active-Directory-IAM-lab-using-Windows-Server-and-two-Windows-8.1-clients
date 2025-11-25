@@ -120,5 +120,5 @@ Result: Shut Down, Restart, Sleep, and Hibernate commands disabled for all users
 
 ## Author
 
-**Saheea A. Olasunkanmi**  
+**Saheed A. Olasunkanmi**  
 Cybersecurity Analyst  
