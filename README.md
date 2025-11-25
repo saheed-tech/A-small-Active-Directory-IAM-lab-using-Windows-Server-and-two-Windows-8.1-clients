@@ -1,5 +1,5 @@
 
-# Active Directory Simulation – Seedorf Tech
+# Active Directory Simulation – Seedorf Tech Solutions
 
 This project is the deployment of a Windows Server Domain Controller (Active Directory) for a company called **Seedorf Tech**. It includes domain setup, client configuration, OU design, group policies, and access control in an enterprise environment.
 
@@ -7,7 +7,7 @@ This project is the deployment of a Windows Server Domain Controller (Active Dir
 
 ## Company Structure
 
-**CyberTech Solutions** is a small IT services firm with the following structure:
+**SeedorfTech Solutions** is a small IT services firm with the following structure:
 
 - 1 x Windows Server (AD Domain Controller)
 - 1 x Windows 8 Client PC (IT Department)
@@ -62,7 +62,7 @@ Server  PC1 (Win 8)   PC2 (Win 8)   PC2 (Win 8)
 Created using **Active Directory Users and Computers**:
 
 ```
-CyberTech.local
+Seedorf.tech
 ├── OU: IT Department
 │   └── Users: Uthman.IT
     
